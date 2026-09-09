@@ -12,4 +12,4 @@ def calculate_total(prices, discount=0, tax_rate=0.05):
 
 print("Total Bill:", calculate_total([10, 20, 30], 5))
 
-
+echo 'print("Calculating final total...")' >> app.py
