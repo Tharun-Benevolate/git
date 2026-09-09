@@ -5,3 +5,11 @@ def calculate_total(prices):
     return total
 
 print("Total Bill:", calculate_total([10, 20, 30]))
+
+def calculate_total(prices, discount=0, tax_rate=0.05):
+    total = sum(prices) - discount
+    return total + (total * tax_rate)
+
+print("Total Bill:", calculate_total([10, 20, 30], 5))
+
+
